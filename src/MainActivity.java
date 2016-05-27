@@ -7,7 +7,7 @@ public class MainActivity {
 
     public static void main(String[] args)
     {
-        String topic="DigitalKranti";
+        String topic="NaMo";
         ArrayList<String> tweets = TweetManager.getTweets(topic);
         NLP.Init();
         int sentimentCount1 = 0,sentimentCount2=0,sentimentCount3=0;
